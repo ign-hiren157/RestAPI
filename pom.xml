@@ -31,22 +31,22 @@
         <artifactId>log4j-slf4j-impl</artifactId>
         <version>2.17.1</version>
     </dependency>
-    <dependency>
+
+<dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>slf4j-api</artifactId>
-    <version>1.8.0-beta4</version> <!-- Make sure this matches your SLF4J version -->
-</dependency>
-<dependency>
-    <groupId>ch.qos.logback</groupId>
-    <artifactId>logback-classic</artifactId>
-    <version>1.2.6</version> <!-- Adjust to the version you need -->
+    <version>1.7.32</version>
 </dependency>
 <dependency>
     <groupId>ch.qos.logback</groupId>
     <artifactId>logback-core</artifactId>
     <version>1.2.6</version>
 </dependency>
-
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest</artifactId>
+    <version>2.2</version>
+</dependency>
   
   <dependency>
     <groupId>io.rest-assured</groupId>
@@ -60,11 +60,6 @@
     <version>7.9.0</version>
     <scope>test</scope>
   </dependency>
-<!--  <dependency>-->
-<!--        <groupId>org.slf4j</groupId>-->
-<!--        <artifactId>slf4j-api</artifactId>-->
-<!--        <version>2.0.0-alpha1</version>-->
-<!--    </dependency>-->
   
  <!-- Selenium -->
     <dependency>
@@ -80,28 +75,8 @@
   </dependency>
 
 
-
-
-<!-- <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.13.2</version>
-        <scope>test</scope>
-    </dependency>
-       <dependency>
-        <groupId>com.jayway.jsonpath</groupId>
-        <artifactId>json-path</artifactId>
-        <version>2.7.0</version>
-        <scope>test</scope>
-    </dependency>
-        <dependency>
-        <groupId>org.hamcrest</groupId>
-        <artifactId>hamcrest</artifactId>
-        <version>2.2</version>
-        <scope>test</scope>
-    </dependency> -->
-
   </dependencies>
+  
   
 <!-- For Jenkins -->
 <properties>

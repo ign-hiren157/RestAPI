@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.PostSSDebitOrder">
+      <class name="tests.SSDebitorderAllTestCase">
         <methods>
-          <include name="testpostssorder" invocation-numbers="1"/>
+          <include name="testValidOrderSubmission" invocation-numbers="0"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- tests.PostSSDebitOrder -->
+      </class> <!-- tests.SSDebitorderAllTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
