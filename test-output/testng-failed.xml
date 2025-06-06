@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.SSDebitorderAllTestCase">
         <methods>
-          <include name="testValidOrderSubmission" invocation-numbers="0"/>
+          <include name="testValidOrderSubmission" invocation-numbers="0 1"/>
           <include name="setup"/>
         </methods>
       </class> <!-- tests.SSDebitorderAllTestCase -->
