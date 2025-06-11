@@ -1,65 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-05T15:11:42 IST" name="Default suite" finished-at="2025-06-05T15:12:14 IST" duration-ms="32053">
+  <suite started-at="2025-06-06T15:53:47 IST" name="Default suite" finished-at="2025-06-06T15:53:51 IST" duration-ms="4544">
     <groups>
     </groups>
-    <test started-at="2025-06-05T15:11:42 IST" name="Default test" finished-at="2025-06-05T15:12:14 IST" duration-ms="32053">
-      <class name="tests.SSDebitorderAllTestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SSDebitorderAllTestCase@37c7595]" started-at="2025-06-05T15:11:42 IST" name="setup" finished-at="2025-06-05T15:11:42 IST" duration-ms="332" status="PASS">
+    <test started-at="2025-06-06T15:53:47 IST" name="Default test" finished-at="2025-06-06T15:53:51 IST" duration-ms="4544">
+      <class name="tests.GetDealwithAsseration">
+        <test-method signature="testValidCredentialsAndValidPath()[pri:1, instance:tests.GetDealwithAsseration@5674e1f2]" started-at="2025-06-06T15:53:47 IST" name="testValidCredentialsAndValidPath" finished-at="2025-06-06T15:53:50 IST" duration-ms="3633" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testValidOrderSubmission(java.lang.String,java.lang.String)[pri:1, instance:tests.SSDebitorderAllTestCase@37c7595]" started-at="2025-06-05T15:11:43 IST" name="testValidOrderSubmission" data-provider="excelDataProvider" finished-at="2025-06-05T15:11:58 IST" duration-ms="15258" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0404272859087]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1345860]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testValidCredentialsAndValidPath -->
+        <test-method signature="testInvalidCredentials()[pri:2, instance:tests.GetDealwithAsseration@5674e1f2]" started-at="2025-06-06T15:53:50 IST" name="testInvalidCredentials" finished-at="2025-06-06T15:53:51 IST" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testValidOrderSubmission -->
-        <test-method signature="testValidOrderSubmission(java.lang.String,java.lang.String)[pri:1, instance:tests.SSDebitorderAllTestCase@37c7595]" started-at="2025-06-05T15:11:58 IST" name="testValidOrderSubmission" data-provider="excelDataProvider" finished-at="2025-06-05T15:12:07 IST" duration-ms="8605" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9209162543084]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[337]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testInvalidCredentials -->
+        <test-method signature="testResponseNotEmpty()[pri:4, instance:tests.GetDealwithAsseration@5674e1f2]" started-at="2025-06-06T15:53:51 IST" name="testResponseNotEmpty" finished-at="2025-06-06T15:53:51 IST" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testValidOrderSubmission -->
-        <test-method signature="testInvalidDealId()[pri:2, instance:tests.SSDebitorderAllTestCase@37c7595]" started-at="2025-06-05T15:12:07 IST" name="testInvalidDealId" finished-at="2025-06-05T15:12:09 IST" duration-ms="2187" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidDealId -->
-        <test-method signature="testMissingIdNumber()[pri:3, instance:tests.SSDebitorderAllTestCase@37c7595]" started-at="2025-06-05T15:12:09 IST" name="testMissingIdNumber" finished-at="2025-06-05T15:12:11 IST" duration-ms="1784" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMissingIdNumber -->
-        <test-method signature="testResponseTimeUnder2Seconds()[pri:4, instance:tests.SSDebitorderAllTestCase@37c7595]" started-at="2025-06-05T15:12:11 IST" name="testResponseTimeUnder2Seconds" finished-at="2025-06-05T15:12:12 IST" duration-ms="1715" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testResponseTimeUnder2Seconds -->
-        <test-method signature="testInvalidAuthentication()[pri:5, instance:tests.SSDebitorderAllTestCase@37c7595]" started-at="2025-06-05T15:12:12 IST" name="testInvalidAuthentication" finished-at="2025-06-05T15:12:14 IST" duration-ms="1662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidAuthentication -->
-      </class> <!-- tests.SSDebitorderAllTestCase -->
+        </test-method> <!-- testResponseNotEmpty -->
+      </class> <!-- tests.GetDealwithAsseration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
