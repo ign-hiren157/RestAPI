@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-06T15:53:47 IST" name="Default suite" finished-at="2025-06-06T15:53:51 IST" duration-ms="4544">
+  <suite started-at="2025-06-23T15:04:21 IST" name="Default suite" finished-at="2025-06-23T15:04:59 IST" duration-ms="37390">
     <groups>
     </groups>
-    <test started-at="2025-06-06T15:53:47 IST" name="Default test" finished-at="2025-06-06T15:53:51 IST" duration-ms="4544">
+    <test started-at="2025-06-23T15:04:21 IST" name="Default test" finished-at="2025-06-23T15:04:59 IST" duration-ms="37390">
       <class name="tests.GetDealwithAsseration">
-        <test-method signature="testValidCredentialsAndValidPath()[pri:1, instance:tests.GetDealwithAsseration@5674e1f2]" started-at="2025-06-06T15:53:47 IST" name="testValidCredentialsAndValidPath" finished-at="2025-06-06T15:53:50 IST" duration-ms="3633" status="PASS">
+        <test-method signature="testValidCredentialsAndValidPath()[pri:1, instance:tests.GetDealwithAsseration@5674e1f2]" started-at="2025-06-23T15:04:21 IST" name="testValidCredentialsAndValidPath" finished-at="2025-06-23T15:04:58 IST" duration-ms="36615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidCredentialsAndValidPath -->
-        <test-method signature="testInvalidCredentials()[pri:2, instance:tests.GetDealwithAsseration@5674e1f2]" started-at="2025-06-06T15:53:50 IST" name="testInvalidCredentials" finished-at="2025-06-06T15:53:51 IST" duration-ms="395" status="PASS">
+        <test-method signature="testInvalidCredentials()[pri:2, instance:tests.GetDealwithAsseration@5674e1f2]" started-at="2025-06-23T15:04:58 IST" name="testInvalidCredentials" finished-at="2025-06-23T15:04:58 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidCredentials -->
-        <test-method signature="testResponseNotEmpty()[pri:4, instance:tests.GetDealwithAsseration@5674e1f2]" started-at="2025-06-06T15:53:51 IST" name="testResponseNotEmpty" finished-at="2025-06-06T15:53:51 IST" duration-ms="458" status="PASS">
+        <test-method signature="testResponseNotEmpty()[pri:4, instance:tests.GetDealwithAsseration@5674e1f2]" started-at="2025-06-23T15:04:58 IST" name="testResponseNotEmpty" finished-at="2025-06-23T15:04:59 IST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseNotEmpty -->
