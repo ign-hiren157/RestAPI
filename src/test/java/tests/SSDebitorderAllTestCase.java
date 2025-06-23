@@ -3,8 +3,10 @@ package tests;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-//import io.restassured.module.jsv.JsonSchemaValidator;
 import utils.ExcelReader;
+
+import java.io.IOException;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -14,8 +16,7 @@ import org.testng.Assert;
 import static io.restassured.RestAssured.*;
 
 public class SSDebitorderAllTestCase {
-
-    private static final String USERNAME = "Inapp123";
+	private static final String USERNAME = "Inapp123";
     private static final String PASSWORD = "P@ssword1";
 
     @BeforeClass
@@ -24,7 +25,7 @@ public class SSDebitorderAllTestCase {
     }
 
     @DataProvider(name = "excelDataProvider")
-    public Object[][] getExcelData() throws Exception {
+    public Object[][] getExcelData() throws IOException, InvalidFormatException {
         return ExcelReader.getExcelData("./Data/excelData.xlsx", "Sheet1");
     }
 
@@ -173,4 +174,5 @@ public class SSDebitorderAllTestCase {
             "Expected authentication error, got: " + status);
     }
 
-} 
+
+}
