@@ -16,7 +16,7 @@ public class PostSSDebitOrder {
 	    }
 	  @DataProvider(name = "excelDataProvider")
 	    public Object[][] getExcelData() throws Exception {
-	        return ExcelReader.getExcelData("./Data/excelData.xlsx", "Sheet1");
+	        return ExcelReader.getExcelData("Data/excelData.xlsx", "Sheet1");
 	    }
 
 	  @Test(dataProvider = "excelDataProvider")

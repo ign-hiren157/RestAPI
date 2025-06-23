@@ -30,6 +30,12 @@ public class ExcelReader {
 	                String cellValue = formatter.formatCellValue(cell);  // ✅ Safe, handles all types
 	                data[i - 1][j] = cellValue.trim();
 	            }
+	            
+	            /* for insert data in jenkins
+	            for (int j = 0; j < cols; j++) {
+	                data[i - 1][j] = row.getCell(j).toString();
+	            } */
+	            
 	        }
 
 	        workbook.close();
