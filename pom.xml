@@ -102,7 +102,7 @@
         <version>3.0.0</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>  <!-- src/test/resources/testng.xml -->
           </suiteXmlFiles>
         </configuration>
       </plugin>
