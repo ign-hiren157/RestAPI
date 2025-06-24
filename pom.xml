@@ -85,6 +85,7 @@
 </properties>
 
  <build>
+ <testSourceDirectory>custom/path/to/your/test/classes</testSourceDirectory>
     <plugins>
         <!-- Compiler plugin already present, keep it -->
         <plugin>
