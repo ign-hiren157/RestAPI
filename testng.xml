@@ -2,12 +2,12 @@
 <suite name="APITestSuite">
     <test name="Debit Order Tests">
         <classes>
-    		<class name="tests.SSDebitororderAllTestCase" />
-		</classes>
+    		<class name="tests.SSDebitorderAllTestCase " /> 
+		</classes> 
         
      <!--For different file 
-    <classes>
-      <class name="tests.PostSSDebitOrder" />
+    <classes> 
+      <class name="tests.PostSSDebitOrder" />  tests.SSDebitororderAllTestCase    tests.GetDealwithAsseration
     </classes>
     -->
     
