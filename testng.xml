@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="API Test Suite">
-    <listeners>
-    	<listener class-name="org.testng.reporters.XMLReporter"/>
-    	<listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
-    </listeners>
-    <test name="Debit Order Tests">
-        <classes>
-    		<class name="tests.SSDebitorderAllTestCase"/> 
+	<listeners>
+		<listener class-name="org.testng.reporters.EmailableReporter" />
+		<listener class-name="org.testng.reporters.XMLReporter" />
+		<listener class-name="org.testng.reporters.SuiteHTMLReporter" />
+	</listeners>
+	<test name="Debit Order Tests">
+		<classes>
+			<class name="tests.SSDebitorderAllTestCase" />
 		</classes>
-    </test>
+	</test>
 </suite>
