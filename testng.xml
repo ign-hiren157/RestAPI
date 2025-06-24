@@ -2,7 +2,7 @@
 <suite name="APITestSuite">
     <test name="Debit Order Tests">
         <classes>
-    		<class name="tests.SSDebitorderAllTestCase " /> 
+    		<class name="tests.SSDebitorderAllTestCase" /> 
 		</classes> 
         
      <!--For different file 
