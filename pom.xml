@@ -102,13 +102,12 @@
 				<version>3.0.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>  <!--
-						src/test/resources/testng.xml -->
+						<suiteXmlFile>testng.xml</suiteXmlFile>  <!-- src/test/resources/testng.xml -->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 
-			<!-- OPTIONAL: Generates HTML report -->
+			<!-- OPTIONAL: Generates HTML report 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-report-plugin</artifactId>
@@ -125,7 +124,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>  -->
 
 		</plugins>
 	</build>
