@@ -20,7 +20,8 @@ public class GetDealwithAsseration {
 	    baseURI = "http://t2.vas.api.ignitiongroup.co.za/vas/";
 	    String dealpath = "Safebase/GetAvailableDeals";
 
-	    Response response = given()
+	    //Response response = 
+	    given()
 	        .auth()
 	        .preemptive()
 	        .basic("VasAPI", "Test@123")
@@ -30,7 +31,7 @@ public class GetDealwithAsseration {
 	        .statusCode(200)
 	        .body("Message", equalTo("Deals returned successfully."))
 	        .extract().response();
-	    System.out.println("Response:\n" + response.prettyPrint());
+	    //System.out.println("Response:\n" + response.prettyPrint());
 }
 
 	@Test (priority = 2)
