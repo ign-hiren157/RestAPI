@@ -6,9 +6,10 @@
 		<listener class-name="org.testng.reporters.XMLReporter" />
 		<listener class-name="org.testng.reporters.SuiteHTMLReporter" />
 	</listeners>
-	<test name="Debit Order Tests">
+	<test name="Run GET Availabe Deals and POST Debit Order">
 		<classes>
-			<class name="tests.SSDebitorderAllTestCase" />
+			<class name="tests.SSDebitorderAllTestCase"/>
+			<class name="tests.GetDealwithAsseration"/>
 		</classes>
 	</test>
 </suite>
