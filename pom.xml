@@ -116,6 +116,15 @@
 				<configuration>
 					<outputDirectory>${project.build.directory}/surefire-reports</outputDirectory>
 				</configuration>
+				<executions>
+					<execution>
+						<id>generate-surefire-report</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>report-only</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 
 		</plugins>
