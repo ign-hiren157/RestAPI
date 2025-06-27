@@ -82,7 +82,9 @@
 	</dependencies>
 
 	<build>
+	
 		<testSourceDirectory>src/test/java</testSourceDirectory>
+		
 		<plugins>
 			<!-- Compile Java -->
 			<plugin>
@@ -127,5 +129,6 @@
 			</plugin>  
 
 		</plugins>
+		
 	</build>
 </project>
