@@ -59,12 +59,12 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- Selenium (if used in API + UI mix tests) -->
+		<!-- Selenium (if used in API + UI mix tests) 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.20.0</version>
-		</dependency>
+		</dependency>  -->
 
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
